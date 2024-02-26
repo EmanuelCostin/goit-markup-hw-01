@@ -1,0 +1,41 @@
+:root {
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 25%;
+}
+
+a {
+    color: #434455;
+    weight: 400;
+    size: 16px;
+    line-height: 24px;
+    letter: 2%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4D5AE5;
+    transition: 0.7s;
+}
+
+.header-btn {
+        background-color: transparent; 
+        border: none; 
+        padding: 0; 
+        font-size: inherit;
+        cursor: pointer; 
+        text-decoration: underline; 
+        color: inherit; 
+        outline: none;
+        text-decoration: none;
+}
+
+.header-btn:hover {
+    color: #4D5AE5;
+    transition: 0.7s;
+}
